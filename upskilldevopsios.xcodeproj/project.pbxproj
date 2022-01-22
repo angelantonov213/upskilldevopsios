@@ -13,9 +13,9 @@
 		CDDD7848279C258900A0E277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDD7846279C258900A0E277 /* Main.storyboard */; };
 		CDDD784A279C258A00A0E277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDD7849279C258A00A0E277 /* Assets.xcassets */; };
 		CDDD784D279C258A00A0E277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDD784B279C258A00A0E277 /* LaunchScreen.storyboard */; };
-		CDDD7858279C258A00A0E277 /* upskilldevopsiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7857279C258A00A0E277 /* upskilldevopsiosTests.swift */; };
-		CDDD7862279C258B00A0E277 /* upskilldevopsiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7861279C258B00A0E277 /* upskilldevopsiosUITests.swift */; };
-		CDDD7864279C258B00A0E277 /* upskilldevopsiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7863279C258B00A0E277 /* upskilldevopsiosUITestsLaunchTests.swift */; };
+		CDDD7858279C258A00A0E277 /* UpskilldevopsiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7857279C258A00A0E277 /* UpskilldevopsiosTests.swift */; };
+		CDDD7862279C258B00A0E277 /* UpskilldevopsiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */; };
+		CDDD7864279C258B00A0E277 /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7863279C258B00A0E277 /* LaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		CDDD784C279C258A00A0E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDDD784E279C258A00A0E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDD7853279C258A00A0E277 /* upskilldevopsiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upskilldevopsiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDD7857279C258A00A0E277 /* upskilldevopsiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upskilldevopsiosTests.swift; sourceTree = "<group>"; };
+		CDDD7857279C258A00A0E277 /* UpskilldevopsiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskilldevopsiosTests.swift; sourceTree = "<group>"; };
 		CDDD785D279C258B00A0E277 /* upskilldevopsiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upskilldevopsiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDD7861279C258B00A0E277 /* upskilldevopsiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upskilldevopsiosUITests.swift; sourceTree = "<group>"; };
-		CDDD7863279C258B00A0E277 /* upskilldevopsiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upskilldevopsiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskilldevopsiosUITests.swift; sourceTree = "<group>"; };
+		CDDD7863279C258B00A0E277 /* LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		CDDD7856279C258A00A0E277 /* upskilldevopsiosTests */ = {
 			isa = PBXGroup;
 			children = (
-				CDDD7857279C258A00A0E277 /* upskilldevopsiosTests.swift */,
+				CDDD7857279C258A00A0E277 /* UpskilldevopsiosTests.swift */,
 			);
 			path = upskilldevopsiosTests;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 		CDDD7860279C258B00A0E277 /* upskilldevopsiosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CDDD7861279C258B00A0E277 /* upskilldevopsiosUITests.swift */,
-				CDDD7863279C258B00A0E277 /* upskilldevopsiosUITestsLaunchTests.swift */,
+				CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */,
+				CDDD7863279C258B00A0E277 /* LaunchTests.swift */,
 			);
 			path = upskilldevopsiosUITests;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDD7858279C258A00A0E277 /* upskilldevopsiosTests.swift in Sources */,
+				CDDD7858279C258A00A0E277 /* UpskilldevopsiosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDD7864279C258B00A0E277 /* upskilldevopsiosUITestsLaunchTests.swift in Sources */,
-				CDDD7862279C258B00A0E277 /* upskilldevopsiosUITests.swift in Sources */,
+				CDDD7864279C258B00A0E277 /* LaunchTests.swift in Sources */,
+				CDDD7862279C258B00A0E277 /* UpskilldevopsiosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
