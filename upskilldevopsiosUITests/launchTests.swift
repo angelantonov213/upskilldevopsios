@@ -7,7 +7,7 @@
 
 import XCTest
 
-class upskilldevopsiosUITestsLaunchTests: XCTestCase {
+class launchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
