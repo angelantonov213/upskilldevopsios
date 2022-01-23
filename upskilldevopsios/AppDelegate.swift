@@ -35,6 +35,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // as they will not return.
     }
 
-
 }
-
