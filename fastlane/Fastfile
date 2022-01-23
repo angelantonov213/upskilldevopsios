@@ -25,7 +25,7 @@ platform :ios do
 
   lane :distribute do
         build_ios_app(
-          workspace: "upskilldevopsios.xcodeproj",
+          project: "upskilldevopsios.xcodeproj",
           configuration: "Release",
           scheme: "upskilldevopsios",
           silent: true,
