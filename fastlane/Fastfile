@@ -22,4 +22,15 @@ platform :ios do
               devices: ["iPhone 13 Pro"],
               scheme: "upskilldevopsios")
   end
+  lane :distribute do
+        build_ios_app(...)
+        # build_ios_app is a built-in fastlane action.
+
+        firebase_app_distribution(
+            app: "1:314361995162:ios:fb33010d38926da017e423",
+            testers: "angel.antonov213@gmail.com",
+            release_notes: "Let's test that!"
+        )
+
+    end
 end
