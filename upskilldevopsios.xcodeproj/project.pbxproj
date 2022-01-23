@@ -15,6 +15,7 @@
 		CD0768C1279E02D10056586A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD0768C0279E02D10056586A /* GoogleService-Info.plist */; };
 		CD0768C2279E02D10056586A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD0768C0279E02D10056586A /* GoogleService-Info.plist */; };
 		CD0768C3279E02D10056586A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD0768C0279E02D10056586A /* GoogleService-Info.plist */; };
+		CD0768C5279E056F0056586A /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0768C4279E056F0056586A /* LaunchTests.swift */; };
 		CDBAEEBD279D9EB900DAD4FD /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBAEEBC279D9EB900DAD4FD /* ViewControllerTests.swift */; };
 		CDDD7841279C258900A0E277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7840279C258900A0E277 /* AppDelegate.swift */; };
 		CDDD7843279C258900A0E277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7842279C258900A0E277 /* SceneDelegate.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		CD0768C0279E02D10056586A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD0768C4279E056F0056586A /* LaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchTests.swift; sourceTree = "<group>"; };
 		CDBAEEBC279D9EB900DAD4FD /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		CDDD783D279C258900A0E277 /* upskilldevopsios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upskilldevopsios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDD7840279C258900A0E277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		CDDD7860279C258B00A0E277 /* upskilldevopsiosUITests */ = {
 			isa = PBXGroup;
 			children = (
+				CD0768C4279E056F0056586A /* LaunchTests.swift */,
 				CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */,
 			);
 			path = upskilldevopsiosUITests;
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0768C5279E056F0056586A /* LaunchTests.swift in Sources */,
 				CDDD7862279C258B00A0E277 /* UpskilldevopsiosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
