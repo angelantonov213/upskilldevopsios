@@ -22,9 +22,18 @@ platform :ios do
               devices: ["iPhone 13 Pro"],
               scheme: "upskilldevopsios")
   end
+
   lane :distribute do
-        build_ios_app(...)
-        # build_ios_app is a built-in fastlane action.
+        build_ios_app(
+          workspace: "upskilldevopsios.xcodeproj",
+          configuration: "Release",
+          scheme: "upskilldevopsios",
+          silent: true,
+          clean: true,
+          output_directory: "path/to/dir", # Destination directory. Defaults to current directory.
+          output_name: "my-app.ipa",       # specify the name of the .ipa file to generate (including file extension)
+          sdk: "iOS 15.0"
+        )
 
         firebase_app_distribution(
             app: "1:314361995162:ios:fb33010d38926da017e423",
