@@ -20,6 +20,6 @@ platform :ios do
   lane :tests do
     run_tests(project: "upskilldevopsios.xcodeproj",
               devices: ["iPhone 13 Pro"],
-              scheme: "upskilldevopsiosTests")
+              scheme: "upskilldevopsios")
   end
 end
