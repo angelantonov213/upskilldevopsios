@@ -21,7 +21,6 @@
 		CDDD784D279C258A00A0E277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDD784B279C258A00A0E277 /* LaunchScreen.storyboard */; };
 		CDDD7858279C258A00A0E277 /* UpskilldevopsiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7857279C258A00A0E277 /* UpskilldevopsiosTests.swift */; };
 		CDDD7862279C258B00A0E277 /* UpskilldevopsiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */; };
-		CDDD7864279C258B00A0E277 /* LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7863279C258B00A0E277 /* LaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		CDDD7857279C258A00A0E277 /* UpskilldevopsiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskilldevopsiosTests.swift; sourceTree = "<group>"; };
 		CDDD785D279C258B00A0E277 /* upskilldevopsiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upskilldevopsiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskilldevopsiosUITests.swift; sourceTree = "<group>"; };
-		CDDD7863279C258B00A0E277 /* LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				CDDD7861279C258B00A0E277 /* UpskilldevopsiosUITests.swift */,
-				CDDD7863279C258B00A0E277 /* LaunchTests.swift */,
 			);
 			path = upskilldevopsiosUITests;
 			sourceTree = "<group>";
@@ -300,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDD7864279C258B00A0E277 /* LaunchTests.swift in Sources */,
 				CDDD7862279C258B00A0E277 /* UpskilldevopsiosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
