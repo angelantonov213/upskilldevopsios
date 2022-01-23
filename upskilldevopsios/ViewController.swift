@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet var lblResult: UILabel!
     @IBOutlet var btnAdd: UIButton!
 
@@ -20,9 +20,8 @@ class ViewController: UIViewController {
     @IBAction func btnAddTapped(_ sender: Any) {
         var currentValue: Int = Int(lblResult.text ?? "0") ?? 0
         let result = currentValue + 1
-        
+
         lblResult.text = String(result)
     }
-    
-}
 
+}
