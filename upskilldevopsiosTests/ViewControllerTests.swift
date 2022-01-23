@@ -23,6 +23,10 @@ class ViewControllerTests: XCTestCase {
         sut = nil
     }
     
+    func testbtnADdInitialValue() {
+        XCTAssertEqual(sut.btnAdd.title(for: .normal), "Plus")
+    }
+    
     func testlblResultInitialValue() {
         XCTAssertEqual(sut.lblResult.text, "0")
     }
