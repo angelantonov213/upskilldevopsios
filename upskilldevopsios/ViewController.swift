@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        btnAdd.setTitle("Plus 1", for: .normal)
     }
 
     @IBAction func btnAddTapped(_ sender: Any) {
