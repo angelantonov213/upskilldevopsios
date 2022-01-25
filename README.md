@@ -1,6 +1,9 @@
 # upskilldevopsios
 Final project repository for iOS CI/CD pipeline
 
+![upskilldevopsios_pipeline](https://user-images.githubusercontent.com/2105597/151031859-130ea716-86a1-43aa-b70e-289e4bf4b83d.jpg)
+
+
 # CI/CD
 
 ## Static code analysis
