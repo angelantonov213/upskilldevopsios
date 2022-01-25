@@ -22,3 +22,12 @@ File: `/.github/workflows/pr.yml`
 
 Firebase is used to distribute the app for testing. The process is handled by Fastlane.
 File: `/.github/workflows/distribution_test.yml`
+
+## Future improvements
+
+- Integrate provisioning profiles to be able to distribute app
+- Deploy release version to the AppStore
+- Make Crashlytics work
+- Integrate Firebase's RemoteConfig to help
+  - usage of Feature toggles
+  - forcing users to update the app to latest version (when crytical)
